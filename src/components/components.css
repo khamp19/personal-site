@@ -1,0 +1,82 @@
+/* here are components' css */
+/* Navbar css */
+.NavBar {
+  background-color: DarkSlateGray;
+  height: 50px;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 150%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 5px;
+  border-bottom-color: gray;
+}
+
+.navList {
+  background-color: rgb(51, 6, 51);
+  float: right;
+  margin-right: 40px;
+}
+
+.nb-item {
+  display: inline-block;
+}
+
+.nb-link {
+  color: white;
+  padding: 10px;
+  text-decoration: none
+}
+
+.nb-link:hover {
+  background-color: Aquamarine;
+  color: navy;
+}
+
+.active {
+  background-color: plum;
+}
+
+/* Main css */
+.Main {
+  background-color: ivory;
+  padding: 20px;
+  margin-top: 100px;
+  color: DimGray;
+}
+.intro {
+
+}
+
+.About {
+  background-color: SteelBlue;
+  padding: 20px;
+  color: white;
+}
+
+.Projects {
+  background-color: orange;
+  padding: 20px;
+  color: white;
+}
+/* Contact css */
+.Contact {
+  background-color: purple;
+  padding: 20px;
+  color: white;
+}
+
+.contact-logos {
+  list-style-type: none;
+  background-color: yellow;
+}
+
+.contact-links {
+  display: inline-block;
+  padding: 10px;
+}
+
+a i {
+  color: white;
+}
