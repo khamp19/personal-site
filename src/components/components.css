@@ -3,18 +3,18 @@
 .NavBar {
   background-color: DarkSlateGray;
   height: 50px;
-  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   list-style-type: none;
-  font-size: 150%;
+  font-size: 150%; 
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 5px;
-  border-bottom-color: gray;
 }
 
 .navList {
-  background-color: rgb(51, 6, 51);
+  display: flex;
   float: right;
   margin-right: 40px;
 }
@@ -30,7 +30,7 @@
 }
 
 .nb-link:hover {
-  background-color: Aquamarine;
+  background-color: ivory;
   color: navy;
 }
 
@@ -69,7 +69,6 @@
 
 .contact-logos {
   list-style-type: none;
-  background-color: yellow;
 }
 
 .contact-links {
