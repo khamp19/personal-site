@@ -1,7 +1,7 @@
 /* here are components' css */
 /* Navbar css */
 .NavBar {
-  background-color: DarkSlateGray;
+  background-color: rgb(40, 241, 241);
   height: 50px;
   display: flex;
   justify-content: flex-end;
