@@ -53,6 +53,37 @@
   background-color: SteelBlue;
   padding: 20px;
   color: white;
+  list-style-type: none;
+}
+
+.Work {
+  display: flex;
+  justify-content: center;
+}
+
+.Work p {
+  width: 45%;
+  margin: 20px;
+}
+
+.Skills {
+  display: flex;
+  justify-content: center;
+  border: 2px purple solid;
+}
+
+.Skills ul {
+  list-style-type: none;
+  border: 2px black solid;
+}
+
+.Skills li {
+  justify-content: flex-start;
+}
+
+.Hobbies {
+  display: flex;
+  list-style-type: none;
 }
 
 .Projects {

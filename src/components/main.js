@@ -7,7 +7,7 @@ class Main extends Component {
       <div className="Main">
         <img src={avatar} width="20%" height="20%" />
         <div className="intro">
-          <h3>I'm Kathryn. Welcome to my website.</h3>
+          <h2>I'm Kathryn. Welcome to my website.</h2>
           <p>Full-stack web developer and marketer</p>
       </div>
     </div>
