@@ -6,8 +6,8 @@ import React, { Component } from 'react';
 class Projects extends Component {
   render() {
     return (
-      <div className="Projects">
-        Here are my projects
+      <div className="Projects" id="projects">
+        <h2>Here are my projects</h2>
       </div>
     );
   }

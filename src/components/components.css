@@ -1,14 +1,14 @@
 /* here are components' css */
 /* Navbar css */
 .NavBar {
-  background-color: rgb(40, 241, 241);
+  background-color: SteelBlue;
   height: 50px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
-  font-size: 150%; 
   position: fixed;
+  font-size: 150%;
   top: 0;
   width: 100%;
 }
@@ -30,7 +30,6 @@
 }
 
 .nb-link:hover {
-  background-color: ivory;
   color: navy;
 }
 
@@ -40,20 +39,15 @@
 
 /* Main css */
 .Main {
-  background-color: ivory;
-  padding: 20px;
+  padding: 30px;
   margin-top: 100px;
-  color: DimGray;
-}
-.intro {
-
 }
 
 .About {
-  background-color: SteelBlue;
   padding: 20px;
-  color: white;
   list-style-type: none;
+  justify-content: center;
+  padding: 30px;
 }
 
 .Work {
@@ -66,36 +60,38 @@
   margin: 20px;
 }
 
-.Skills {
+.Skills ul {
   display: flex;
   justify-content: center;
-  border: 2px purple solid;
-}
-
-.Skills ul {
-  list-style-type: none;
-  border: 2px black solid;
 }
 
 .Skills li {
-  justify-content: flex-start;
+  list-style-type: none;
+  padding: 20px;
+}
+/* 
+.Hobbies {
+  border: 2px purple solid;
 }
 
-.Hobbies {
+.Hobbies ul {
   display: flex;
   list-style-type: none;
 }
 
+.Hobbies li {
+  width: 20%;
+  height: 100px;
+} */
+
 .Projects {
-  background-color: orange;
+  border: 2px blue solid;
   padding: 20px;
-  color: white;
 }
 /* Contact css */
 .Contact {
-  background-color: purple;
   padding: 20px;
-  color: white;
+  background-color: SteelBlue;
 }
 
 .contact-logos {
@@ -104,7 +100,7 @@
 
 .contact-links {
   display: inline-block;
-  padding: 10px;
+  padding: 20px;
 }
 
 a i {

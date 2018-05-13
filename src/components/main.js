@@ -4,9 +4,9 @@ import avatar from '../images/myAvatar.png';
 class Main extends Component {
   render() {
     return (
-      <div className="Main">
+      <div className="Main" id="main">
         <img src={avatar} width="20%" height="20%" />
-        <div className="intro">
+        <div className="intro" >
           <h2>I'm Kathryn. Welcome to my website.</h2>
           <p>Full-stack web developer and marketer</p>
       </div>
