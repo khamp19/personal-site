@@ -1,8 +1,4 @@
 import React, { Component } from 'react';
-// import camping from '../images/tent.png';
-// import archery from '../images/archery1.png';
-// import bike from '../images/mtbike.png';
-// import dog from '../images/dog1.png';
 
 class About extends Component {
   render() {
@@ -30,21 +26,9 @@ class About extends Component {
         {/* add link to resume, post to google drive or github */}
           <p>You can access my resume here</p>
         </div>
-        {/* <h4>What I like to Do</h4> */}
-        {/* <div className="Hobbies">
-          <ul>
-            <li>Camping <img src={camping} height="10%" width="10%"/></li>
-            <li>Archery <img src={archery} height="5%" width="5%"/></li>
-            <li>Mountain biking <img src={bike} height="10%" width="10%"/></li>
-            <li>Hanging out with my dog <img src={dog} height="10%" width="10%"/></li>
-          </ul>
-        </div> */}
       </div>
     );
   }
 }
 
 export default About;
-/*
-Interests- use font awesome icons?
-*/

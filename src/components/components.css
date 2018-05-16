@@ -69,29 +69,43 @@
   list-style-type: none;
   padding: 20px;
 }
-/* 
-.Hobbies {
-  border: 2px purple solid;
-}
-
-.Hobbies ul {
-  display: flex;
-  list-style-type: none;
-}
-
-.Hobbies li {
-  width: 20%;
-  height: 100px;
-} */
 
 .Projects {
-  border: 2px blue solid;
   padding: 20px;
+  flex-wrap: wrap;
 }
+
+.Projects img {
+  padding: 10px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: steelblue;
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: azure;
+}
+
+.Projects img:hover .overlay {
+  opacity: 1;
+}
+
 /* Contact css */
 .Contact {
   padding: 20px;
   background-color: SteelBlue;
+  color: white;
 }
 
 .contact-logos {

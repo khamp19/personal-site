@@ -1,13 +1,15 @@
-//projects for personal site
 import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
+import nasa from '../images/nasa2.png';
+import notes from '../images/notes2.png';
+
 
 class Projects extends Component {
   render() {
     return (
       <div className="Projects" id="projects">
-        <h2>Here are my projects</h2>
+        <h2>What I've Built</h2>
+        <img src={nasa} />
+        <img src={notes} />
       </div>
     );
   }
