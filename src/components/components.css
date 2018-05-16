@@ -50,6 +50,11 @@
   padding: 30px;
 }
 
+.About img {
+  width: 20%;
+  height: 20%;
+}
+
 .Work {
   display: flex;
   justify-content: center;
@@ -72,7 +77,9 @@
 
 .Projects {
   padding: 20px;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Projects img {
@@ -97,7 +104,11 @@
   background-color: azure;
 }
 
-.Projects img:hover .overlay {
+.p-description {
+  padding: 5px;
+}
+
+.image-container:hover .overlay {
   opacity: 1;
 }
 
