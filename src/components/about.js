@@ -23,8 +23,9 @@ class About extends Component {
           </ul>
         </div>
         <div className="Res">
-        {/* add link to resume, post to google drive or github */}
-          <p>You can access my resume here</p>
+          <p>You can access my resume 
+          <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" target="_blank" rel="noopener noreferrer">
+          <strong> here</strong></a></p>
         </div>
       </div>
     );
