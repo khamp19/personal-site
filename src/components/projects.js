@@ -14,10 +14,10 @@ class Projects extends Component {
             <div className="overlay">
               <div className="p-description">
                 <h3>A note-taking app built with React, Redux, Node, Express, and MongoDB</h3>
-                <p><a href="https://github.com/khamp19" target="_blank" rel="noopener noreferrer">
-                  Check it out</a></p>
-                <p><a href="https://github.com/khamp19" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github fa-2x" aria-hidden="true" /></a></p>
+                <p><a href="https://mynotesproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <strong>Check it out</strong></a></p>
+                <p><a href="https://github.com/khamp19/notes_frontend" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github fa-3x" aria-hidden="true" /></a></p>
               </div>
             </div>
           </div>
@@ -27,10 +27,10 @@ class Projects extends Component {
               <div className="p-description">
                 <h3>App that queries NASA's picture-of-the-day API and displays the 
                   image and information. Built with React.</h3>
-                <p><a href="https://github.com/khamp19" target="_blank" rel="noopener noreferrer">
-                  Check it out</a></p>
-                <p><a href="https://github.com/khamp19" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-github fa-2x" aria-hidden="true" /></a></p>
+                <p><a href="https://nasa-pic.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                  <strong>Check it out</strong></a></p>
+                <p><a href="https://github.com/khamp19/nasa-pic" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github fa-3x" aria-hidden="true" /></a></p>
               </div>
             </div>
           </div>
