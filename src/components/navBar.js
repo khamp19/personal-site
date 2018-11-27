@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class NavBar extends Component {
   render() {
     return (
-      <div className="NavBar">
+      <div className="navBar">
         <ul className="navList">
           <li className="nb-item"><a href="#main" className="nb-link">Home</a></li>
           <li className="nb-item"><a href="#about" className="nb-link">About</a></li>
