@@ -7,16 +7,18 @@ import './projects.css';
 class Projects extends Component {
   render() {
     return (
-      <div className="projects">
+      <div>
         <h2>What I've Built</h2>
-        {/* <div className="Projects"> */}
+        <div className="projects">
           <div className="image-container">
             <img src={notes} alt="notes-app" className="image"/>
             <div className="overlay">
               <div className="p-description">
-                <h3>A note-taking app built with React, Redux, Node, Express, and MongoDB</h3>
+                <p>A note-taking app built with React, Redux, Node, Express, and MongoDB</p>
+                <br></br>
                 <p><a href="https://mynotesproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <strong>Check it out</strong></a></p>
+                <br></br>
                 <p><a href="https://github.com/khamp19/notes_frontend" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github fa-3x" aria-hidden="true" /></a></p>
               </div>
@@ -26,16 +28,18 @@ class Projects extends Component {
             <img src={nasa} alt="nasa-app" className="image"/>
             <div className="overlay">
               <div className="p-description">
-                <h3>App that queries NASA's picture-of-the-day API and displays the 
-                  image and information. Built with React.</h3>
+                <p>App that queries NASA's picture-of-the-day API and displays the 
+                  image and information. Built with React.</p>
+                <br></br>
                 <p><a href="https://nasa-pic.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                   <strong>Check it out</strong></a></p>
+                <br></br>
                 <p><a href="https://github.com/khamp19/nasa-pic" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github fa-3x" aria-hidden="true" /></a></p>
               </div>
             </div>
           </div>
-        {/* </div> */}
+        </div>
       </div>
     );
   }

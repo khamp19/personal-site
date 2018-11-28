@@ -7,6 +7,7 @@ class NavBar extends Component {
     return (
       <div className="navBar">
         <ul className="navList">
+        {/* fix your links */}
           <li className="nb-item"><a href="#main" className="nb-link">Home</a></li>
           <li className="nb-item"><a href="#about" className="nb-link">About</a></li>
           <li className="nb-item"><a href="#projects" className="nb-link">Projects</a></li>

@@ -5,7 +5,7 @@ class About extends Component {
   render() {
     return (
       <div className="about">
-        <h3>What I Do</h3>
+        <h2>What I Do</h2>
         <div className="work">
           <p>At work, I tell stories about people's TV and internet habits
             to convince businesses to advertise on cable. I'm currently working on expanding
@@ -24,9 +24,9 @@ class About extends Component {
           </ul>
         </div>
         <div className="res">
-          <p>You can access my resume 
-          <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" target="_blank" rel="noopener noreferrer">
-          <strong> here</strong></a></p>
+          <p>You can access my resume <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" target="_blank" rel="noopener noreferrer"> 
+             here</a>
+          </p>
         </div>
       </div>
     );

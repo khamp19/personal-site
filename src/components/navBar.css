@@ -21,25 +21,24 @@
 .nb-link {
     padding: 10px;
 }
-  
-.nb-link:hover {
-    color: navy;
-}
-  
-.active {
-    background-color: plum;
-}
 
 @media (max-width: 768px) {
   .navBar {
       max-width: 768px;
       justify-content: center;
+      padding: 10px;
   }
 }
 
+/* fix this css */
 @media (max-width: 400px) {
   .navBar {
-      max-width: 400px;
-      font-size: 1.4rem;
+    max-width: 400px;
+    padding: 30px;
+  }
+
+  .nb-item {
+    flex-wrap: wrap;
+    margin: 8px;
   }
 }

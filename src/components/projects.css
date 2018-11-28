@@ -2,17 +2,16 @@
 .projects {
   padding: 20px;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
+  margin-bottom: 20px;
 }
   
 .projects img {
   padding: 10px;
-  height: 300px;
+  height: 250px;
   margin: 10px;
   border-radius: 10px;
   background-color: steelblue;
-  max-width: 100%;
 }
 
 .image-container {
@@ -25,8 +24,6 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: steelblue;
@@ -35,20 +32,49 @@
   border-radius: 10px;
 }
 
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
 .p-description {
   color: white;
   text-align: center;
   margin: 20px;
 }
 
-.image-container:hover .overlay {
-  opacity: 1;
-}
-
 @media (max-width: 768px) {
-  
+  .projects {
+    display: block;
+  }
+
+  .image {
+    width: 90%;
+    max-width: 350px;
+    overflow: hidden;
+  }
+
+  .overlay {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 400px) {
-  
+  .projects {
+    display: block;
+  }
+
+  .projects img {
+    visibility: hidden;
+  }
+
+  .overlay {
+    visibility: visible;
+    opacity: 1;
+    margin: 10px;
+  }
+  .p-description p {
+    font-size: 1rem;
+  }
 }

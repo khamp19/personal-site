@@ -86,6 +86,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: navy;
+}
+
+.active {
+  color: plum;
+}
+
 p {
   font-size: 1.2rem;
 }

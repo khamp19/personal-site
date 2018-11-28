@@ -4,6 +4,7 @@
     list-style-type: none;
     justify-content: center;
     border-bottom: 3px dotted steelblue;
+    margin-bottom: 20px;
 }
   
 .work {
@@ -52,8 +53,9 @@
   }
 
   .work p {
-    width: 90%;
-    max-width: 360px;
+    width: 100%;
+    max-width: 400px;
     margin: 10px auto;
+    padding: 10px 0px;
   }
 }
