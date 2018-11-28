@@ -14,8 +14,8 @@
     padding-right: 2.5%;
 }
 
-.nb-item {
-    display: inline-block;
+.navList {
+  display: flex;
 }
   
 .nb-link {
@@ -28,17 +28,24 @@
       justify-content: center;
       padding: 10px;
   }
+
+  .navList {
+    justify-content: space-evenly;
+  }
 }
 
 /* fix this css */
 @media (max-width: 400px) {
   .navBar {
     max-width: 400px;
-    padding: 30px;
+    padding: 20px;
   }
 
   .nb-item {
-    flex-wrap: wrap;
-    margin: 8px;
+    font-size: 1.2rem;
+  }
+
+  .nb-link {
+    padding: 5px;
   }
 }
