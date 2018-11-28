@@ -57,24 +57,26 @@ table {
 /* here are components' css */
 /* Navbar css */
 .navBar {
+  /* border: 3px solid gray; */
   background-color: SteelBlue;
-  height: 50px;
+  height: 75px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
   position: fixed;
   z-index: 1;
-  font-size: 150%;
-  top: 0;
+  top: 0; 
   width: 100%;
+  max-width: 878px;
+  font-size: 1.4rem;
 }
 
-.navList {
+/* .navList {
   display: flex;
   float: right;
   margin-right: 40px;
-}
+} */
 
 .nb-item {
   display: inline-block;
@@ -95,43 +97,50 @@ table {
 }
 
 /* Main css */
-.Main {
-  padding: 30px;
-  margin-top: 100px;
+.main {
+  padding-top: 100px;
+  font-size: 1.4rem;
 }
 
-.About {
+.avatar {
+  padding-bottom: 20px;
+  width: 250px;
+  /* height: 200px; */
+}
+
+.intro {
+  padding-bottom: 20px;
+}
+
+/* About section css */
+.about {
+  border: 3px solid orange;
   padding: 20px;
   list-style-type: none;
   justify-content: center;
 }
 
-.about-image {
-  width: 200px;
-  height: 200px;
-}
 
-.Work {
+.work {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.Work p {
+.work p {
   padding: 10px;
   margin: 10px;
   max-width: 45%;
   text-align: left;
 }
 
-.Skills ul {
+.skills ul {
   display: flex;
   justify-content: center;
 }
 
-.Skills li {
-  list-style-type: none;
+.skills li {
   padding: 20px;
 }
 
