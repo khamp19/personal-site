@@ -1,12 +1,16 @@
 .App {
   text-align: center;
   font-family: "Courier New", courier, monospace;
-  background-color: ivory;
   color: DimGray;
+  background: whitesmoke;
+  font-size: 62.5%;
 }
 
-.App p {
-  font-size: 110%;
+.container {
+  width: 100%;
+  max-width: 880px;
+  background: ivory;
+  margin: auto;
 }
 
 a i {

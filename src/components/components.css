@@ -1,24 +1,82 @@
+/* css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
 /* here are components' css */
 /* Navbar css */
-.NavBar {
+.navBar {
+  /* border: 3px solid gray; */
   background-color: SteelBlue;
-  height: 50px;
+  height: 75px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
   position: fixed;
   z-index: 1;
-  font-size: 150%;
-  top: 0;
+  top: 0; 
   width: 100%;
+  max-width: 878px;
+  font-size: 1.4rem;
 }
 
-.navList {
+/* .navList {
   display: flex;
   float: right;
   margin-right: 40px;
-}
+} */
 
 .nb-item {
   display: inline-block;
@@ -39,43 +97,50 @@
 }
 
 /* Main css */
-.Main {
-  padding: 30px;
-  margin-top: 100px;
+.main {
+  padding-top: 100px;
+  font-size: 1.4rem;
 }
 
-.About {
+.avatar {
+  padding-bottom: 20px;
+  width: 250px;
+  /* height: 200px; */
+}
+
+.intro {
+  padding-bottom: 20px;
+}
+
+/* About section css */
+.about {
+  border: 3px solid orange;
   padding: 20px;
   list-style-type: none;
   justify-content: center;
 }
 
-.about-image {
-  width: 200px;
-  height: 200px;
-}
 
-.Work {
+.work {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.Work p {
+.work p {
   padding: 10px;
   margin: 10px;
   max-width: 45%;
   text-align: left;
 }
 
-.Skills ul {
+.skills ul {
   display: flex;
   justify-content: center;
 }
 
-.Skills li {
-  list-style-type: none;
+.skills li {
   padding: 20px;
 }
 

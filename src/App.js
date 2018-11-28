@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/navBar';
 import About from './components/about';
@@ -12,11 +11,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header><NavBar /></header>
-        <Main />
-        <About />
-        <Projects />
-        <Contact />
+        <div className="container">
+          <NavBar />
+          <Main />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
       </div>
     );
   }
