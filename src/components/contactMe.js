@@ -6,7 +6,7 @@ import './contactMe.css';
 class Contact extends Component {
   render() {
     return (
-      <div className="contact">
+      <div className="contact" id="contact">
         <div>
           <ul className="contact-logos">
             <li className="contact-links">

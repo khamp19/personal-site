@@ -7,7 +7,7 @@ import './projects.css';
 class Projects extends Component {
   render() {
     return (
-      <div>
+      <div id="projects">
         <h2>What I've Built</h2>
         <div className="projects">
           <div className="image-container">
