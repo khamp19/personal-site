@@ -1,0 +1,37 @@
+/* Contact css */
+.contact {
+  padding: 20px;
+  background-color: SteelBlue;
+  color: white;
+}
+
+.contact-logos {
+  list-style-type: none;
+}
+
+.contact-links {
+  display: inline-block;
+  padding: 20px;
+}
+
+/* .contact-links:hover {
+  color: navy;
+}
+
+.active {
+  background-color: plum;
+} */
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 400px) {
+  .contact {
+    padding-top: 10px;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+}

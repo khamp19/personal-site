@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './about.css';
 
 class About extends Component {
   render() {
@@ -14,8 +15,8 @@ class About extends Component {
             Through this experience I have discovered a passion for backend development,
             NodeJS and MongoDB.</p>
         </div>
-        <h3>Tools I use</h3>
         <div className="skills">
+          <h3>Tools I Use</h3>
           <ul>
             <li><i class="fab fa-js fa-5x" /></li>
             <li><i class="fab fa-react fa-5x" /></li>
@@ -23,9 +24,9 @@ class About extends Component {
           </ul>
         </div>
         <div className="res">
-          <p>You can access my resume 
-          <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" target="_blank" rel="noopener noreferrer">
-          <strong> here</strong></a></p>
+          <p>You can access my resume <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" target="_blank" rel="noopener noreferrer"> 
+             here</a>
+          </p>
         </div>
       </div>
     );
