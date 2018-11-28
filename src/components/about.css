@@ -1,0 +1,59 @@
+/* About section css */
+.about {
+    padding: 20px;
+    list-style-type: none;
+    justify-content: center;
+    border-bottom: 3px dotted steelblue;
+}
+  
+.work {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+}
+
+.work p {
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+  max-width: 423px;
+  text-align: left;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+}
+
+.skills li {
+  padding: 20px;
+}
+
+.res a {
+  color: DimGray;
+}
+
+@media (max-width: 768px) {
+  .work {
+    padding-top: 0px;
+    display: block;
+  }
+
+  .work p {
+    width: 90%;
+    max-width: 691px;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .work {
+    display: block;
+  }
+
+  .work p {
+    width: 90%;
+    max-width: 360px;
+    margin: 10px auto;
+  }
+}

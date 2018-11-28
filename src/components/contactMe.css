@@ -1,0 +1,23 @@
+/* Contact css */
+.Contact {
+  padding: 20px;
+  background-color: SteelBlue;
+  color: white;
+}
+
+.contact-logos {
+  list-style-type: none;
+}
+
+.contact-links {
+  display: inline-block;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 400px) {
+  
+}

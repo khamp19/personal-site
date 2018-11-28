@@ -5,7 +5,7 @@ import About from './components/about';
 import Main from './components/main';
 import Contact from './components/contactMe';
 import Projects from './components/projects';
-import './components/components.css'
+// import './components/components.css'
 
 class App extends Component {
   render() {

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import nasa from '../images/nasa2.png';
 import notes from '../images/notes2.png';
+import './projects.css';
 
 
 class Projects extends Component {
   render() {
     return (
-      <div id="projects">
+      <div className="projects">
         <h2>What I've Built</h2>
-        <div className="Projects">
+        {/* <div className="Projects"> */}
           <div className="image-container">
             <img src={notes} alt="notes-app" className="image"/>
             <div className="overlay">
@@ -34,7 +35,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
     );
   }

@@ -1,0 +1,45 @@
+/* Navbar css */
+.navBar {
+    background-color: SteelBlue;
+    height: 75px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0; 
+    width: 100%;
+    max-width: 880px;
+    font-size: 1.4rem;
+    padding-right: 2.5%;
+}
+
+.nb-item {
+    display: inline-block;
+}
+  
+.nb-link {
+    padding: 10px;
+}
+  
+.nb-link:hover {
+    color: navy;
+}
+  
+.active {
+    background-color: plum;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+      max-width: 768px;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .navBar {
+      max-width: 400px;
+      font-size: 1.4rem;
+  }
+}

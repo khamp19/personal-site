@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import './about.css';
 
 class About extends Component {
   render() {
     return (
       <div className="about">
-        <h2>What I Do</h2>
+        <h3>What I Do</h3>
         <div className="work">
           <p>At work, I tell stories about people's TV and internet habits
             to convince businesses to advertise on cable. I'm currently working on expanding
@@ -14,8 +15,8 @@ class About extends Component {
             Through this experience I have discovered a passion for backend development,
             NodeJS and MongoDB.</p>
         </div>
-        <h3>Tools I use</h3>
         <div className="skills">
+          <h3>Tools I Use</h3>
           <ul>
             <li><i class="fab fa-js fa-5x" /></li>
             <li><i class="fab fa-react fa-5x" /></li>
