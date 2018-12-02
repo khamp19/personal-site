@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import nasa from '../images/nasa2.png';
 import notes from '../images/notes2.png';
+import CodeExample from './code_example';
 import './projects.css';
 
 
@@ -9,6 +10,7 @@ class Projects extends Component {
     return (
       <div id="projects">
         <h2>What I've Built</h2>
+        <CodeExample />
         <div className="projects">
           <div className="image-container">
             <img src={notes} alt="notes-app" className="image"/>

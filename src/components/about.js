@@ -15,6 +15,17 @@ class About extends Component {
             Through this experience I have discovered a passion for backend development,
             NodeJS and MongoDB.</p>
         </div>
+        <div className="education" id="education">
+          <h3>Education</h3>
+          <div className="cs-ed">
+            <p>Lambda School</p>
+            <p>other courses</p>
+          </div>
+          <div className="college">
+            <p>Wake</p>
+            <p>Duke</p>
+          </div>
+        </div>
         <div className="skills">
           <h3>Tools I Use</h3>
           <ul>

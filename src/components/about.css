@@ -21,6 +21,12 @@
   text-align: left;
 }
 
+.education {
+  border: 3px solid blue;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
 .skills ul {
   display: flex;
   justify-content: center;
