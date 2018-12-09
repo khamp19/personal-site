@@ -1,17 +1,17 @@
 /* Navbar css */
 .navBar {
-    background-color: SteelBlue;
-    height: 75px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    top: 0; 
-    width: 100%;
-    max-width: 880px;
-    font-size: 1.4rem;
-    padding-right: 2.5%;
+  background-color: SteelBlue;
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0; 
+  width: 100%;
+  max-width: 880px;
+  font-size: 1.6rem;
+  padding-right: 2.5%;
 }
 
 .navList {
@@ -19,7 +19,12 @@
 }
   
 .nb-link {
-    padding: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.nb-item a:hover {
+  color: navy;
 }
 
 @media (max-width: 768px) {

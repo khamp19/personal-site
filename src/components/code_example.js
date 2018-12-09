@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './codeExample.css'
 
-
 const primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
-const colorList = [];
 
 class CodeExample extends Component {
     constructor() {
@@ -11,10 +9,8 @@ class CodeExample extends Component {
         this.state = {
             count: 0,
             backgroundColor: {
-                backgroundColor: "whitesmoke"
-            },
-            scrollColor: {
-                backgroundColor: "whitesmoke"
+                backgroundColor: "whitesmoke",
+                color: "black",
             }
         };
     }
@@ -34,7 +30,6 @@ class CodeExample extends Component {
             this.setState({
                 backgroundColor: {
                     boxShadow: "10px 5px steelblue",
-                    width: "200px",
                     borderRadius: "50%"
                 }
             });
@@ -60,42 +55,24 @@ class CodeExample extends Component {
             count: 0,
             backgroundColor: {
                 backgroundColor: "whitesmoke",
-                width: "auto"
+                color: "black",
             }
         });
     };
-    
-    addToBackground = () => {
-        colorList.push(this.state.backgroundColor);
-    };
-
-    displayColors = () => {
-        if (colorList.length > 0) {
-            for (let i = 0; i < colorList.length; i++) {
-                this.state.scrollColor = colorList[i];
-                this.setState({ scrollColor: this.state.scrollColor });
-            }
-        }
-    };
-
-    // resetScrollColor
 
     render () {
         return (
             <div className="example">
-                <h3>Here's a code example</h3>
-                <p>Here's a description of the code</p>
+                <h3>An Interactive React Element</h3>
+                <p>I built a React element that counts to 100, turns blue 
+                    when the counter is a prime number, turns green when the counter has a remainder of 3 when divided
+                    by 5, and turns into a circle when the count is a multiple of 10.
+                </p>
                 <div className="exampleCode">
-                    {/*<h1>Hello College Vine</h1>*/}
                     <div className="counter" style={this.state.backgroundColor}>
                         <h2>{this.state.count}</h2>
-                        <button onClick={() => {this.addCount(); this.addToBackground();}}>Click Me!</button>
+                        <button onClick={this.addCount}>Click Me!</button>
                         <button onClick={this.resetCount}>Reset</button>
-                    </div>
-                    <div className="bonus" style={this.state.scrollColor}>
-                        <p>display scrolling colors here</p>
-                        <button onClick={this.displayColors}>Click me!</button>
-                        {/*<button onClick={this.resetScrollColor}>Reset</button>*/}
                     </div>
                 </div>
             </div>   
@@ -104,15 +81,3 @@ class CodeExample extends Component {
 }
 
 export default CodeExample;
-
-
-
-
-
-
-
-//     render() {
-//         return (
-            
-
-// render(<App />, document.getElementById("root"));

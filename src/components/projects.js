@@ -10,7 +10,9 @@ class Projects extends Component {
     return (
       <div id="projects">
         <h2>What I've Built</h2>
+        <br></br>
         <CodeExample />
+        <h3>Some of my other projects</h3>
         <div className="projects">
           <div className="image-container">
             <img src={notes} alt="notes-app" className="image"/>
