@@ -1,3 +1,16 @@
+Hello!
+
+Thanks for visiting the github repo for my website. This site was built with React and Flexbox. I built this site with these goals in mind:
+- To show that I can build reusable React components
+- To practice using Flexbox and CSS for responsive design
+- To showcase some of my projects and skills
+- To host my first project on Netlify, using continuous deployment
+
+My portfolio site is hosted here: https://www.kathryn-hampton.com/
+I hope you like it!
+
+
+**********************************************************************************************************
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
