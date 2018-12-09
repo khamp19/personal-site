@@ -6,7 +6,15 @@
     border-bottom: 3px dotted steelblue;
     margin-bottom: 20px;
 }
-  
+
+.about a {
+  color: DimGray;
+}
+
+.about a:hover {
+  color: navy;
+}
+
 .work {
   display: flex;
   padding: 20px 0px;
@@ -21,6 +29,46 @@
   text-align: left;
 }
 
+.education {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.education h3 {
+  margin-bottom: 10px;
+}
+
+.ed {
+  padding: 20px;
+}
+
+.ed p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.ed h4 {
+  font-weight: bolder;
+}
+
+.college {
+  display: flex;
+  justify-content: center;
+}
+
+.duke {
+  width: 45%;
+  max-width: 840px;
+  text-align: center;
+}
+
+.wake {
+  margin-right: 20px;
+  width: 45%;
+  max-width: 840px;
+  text-align: center;
+}
+
 .skills ul {
   display: flex;
   justify-content: center;
@@ -30,8 +78,8 @@
   padding: 20px;
 }
 
-.res a {
-  color: DimGray;
+.res {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -41,6 +89,22 @@
   }
 
   .work p {
+    width: 90%;
+    max-width: 691px;
+    margin: 10px auto;
+  }
+
+  .college {
+    display: block;
+  }
+
+  .duke {
+    width: 90%;
+    max-width: 691px;
+    margin: 10px auto;
+  }
+
+  .wake {
     width: 90%;
     max-width: 691px;
     margin: 10px auto;
@@ -57,5 +121,19 @@
     max-width: 400px;
     margin: 10px auto;
     padding: 10px 0px;
+  }
+  .education {
+    padding: 0px;
+  }
+
+  .ed {
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 30px;
+    margin: 0px;
+  }
+
+  .ed p {
+    margin-bottom: 0px;
   }
 }

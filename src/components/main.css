@@ -14,6 +14,10 @@
   padding-bottom: 30px;
 }
 
+.intro h2 {
+  padding-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .intro {
     max-width: 768px;
