@@ -20,7 +20,7 @@ class Projects extends Component {
               <div className="p-description">
                 <p>A note-taking app built with React, Redux, Node, Express, and MongoDB</p>
                 <br></br>
-                <p><a href="https://mynotesproject.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <p><a href="https://takenote.netlify.com/" target="_blank" rel="noopener noreferrer">
                   <strong>Check it out</strong></a></p>
                 <br></br>
                 <p><a href="https://github.com/khamp19/notes_frontend" target="_blank" rel="noopener noreferrer">
