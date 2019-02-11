@@ -42,9 +42,8 @@ class About extends Component {
             <li><i class="fab fa-node fa-5x" /></li>
           </ul>
         </div>
-        {/* fix resume once approved */}
         <div className="res">
-          <p>You can access my resume <a href="https://drive.google.com/open?id=18Wxkeod-XOgIxloaNerQ0UM_SVhBJnnc" 
+          <p>You can access my resume <a href="https://drive.google.com/open?id=1LYm8W0bW3gscjEMeVbUT8BwZp3D2B5K_" 
             target="_blank" rel="noopener noreferrer"> here</a>
           </p>
         </div>
