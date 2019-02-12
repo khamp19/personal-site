@@ -7,13 +7,12 @@ class About extends Component {
       <div className="about" id="about">
         <h2>What I Do</h2>
         <div className="work">
-          <p>At work, I tell stories about people's TV and internet habits
-            to convince businesses to advertise on cable. I'm currently working on expanding
-            our proprietary news channel to 18 new markets across the country. </p>
           <p>I picked up coding as a hobby because I wanted to learn something new.
-            I took a class on full-stack web development with <a href="https://lambdaschool.com/">Lambda School</a>. 
-            Through this experience I have discovered a passion for backend development,
-            NodeJS and MongoDB. I'm currently learning AWS and Postgres.</p>
+              I took a class on full-stack web development with 
+            <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a>. 
+            Through this experience I have discovered a passion for backend development using
+            NodeJS. I'm currently learning AWS and Postgres.
+          </p>
         </div>
         <div className="education" id="education">
           <h3>Education</h3>

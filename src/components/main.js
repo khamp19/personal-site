@@ -9,7 +9,7 @@ class Main extends Component {
         <img src={avatar} alt="avatar" className="avatar" />
         <div className="intro" >
           <h2>I'm Kathryn.</h2>
-          <p>Full-stack web developer and marketer.</p>
+          <p>Full-stack web developer.</p>
           <p>Welcome to my website.</p>
       </div>
     </div>
