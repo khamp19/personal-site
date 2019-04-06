@@ -7,17 +7,23 @@ class About extends Component {
       <div className="about" id="about">
         <h2>What I Do</h2>
         <div className="work">
-          <p>I picked up coding as a hobby because I wanted to learn something new.
-              I took a class on full-stack web development with 
-            <a href="https://lambdaschool.com/" target="_blank" rel="noopener noreferrer">Lambda School</a>. 
+          <p>I starting coding as a hobby, but quickly became motivated to pursue a 
+            career in software development because I knew I would be challenged 
+            intellectually and have the opportunity to constantly learn.
+            In previous positions, my ability to stay organized, manage my time, 
+            and work as part of a team, were essential to my success managing and 
+            completing projects.</p>
+            <br></br>
+            <p>I took a class on full-stack web development with Lambda School. 
             Through this experience I have discovered a passion for backend development using
-            NodeJS. I'm currently learning AWS and Postgres.
+            NodeJS. I'm currently learning Python, AWS, and SQL.
           </p>
         </div>
         <div className="education" id="education">
           <h3>Education</h3>
           <div className="ed cs-ed">
-            <h4>Lambda School</h4>
+          <h4><a href="https://lambdaschool.com/"
+              target="_blank" rel="noopener noreferrer">Lambda School</a></h4>
             <p>Intensive computer science course focused on developing full-stack web 
             applications using JavaScript. Technologies used include: CSS, LESS, React and Redux, 
             NodeJS, Express, and MongoDB. </p>
@@ -42,7 +48,7 @@ class About extends Component {
           </ul>
         </div>
         <div className="res">
-          <p>You can access my resume <a href="https://drive.google.com/open?id=1LYm8W0bW3gscjEMeVbUT8BwZp3D2B5K_" 
+          <p>You can access my resume <a href="https://gist.github.com/khamp19/eb00bd377681bd750f9946b8c1b6e7d5" 
             target="_blank" rel="noopener noreferrer"> here</a>
           </p>
         </div>

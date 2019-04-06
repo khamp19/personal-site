@@ -67,6 +67,15 @@
   height: 400px;
 }
 
+.poke-description {
+  margin-top: 15px;
+  font-size: 1.8em;
+}
+
+.poke-links {
+  margin-bottom: 15px
+}
+
 .a-div {
   display: flex;
   justify-content: center;
