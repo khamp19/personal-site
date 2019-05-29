@@ -1,9 +1,28 @@
 import React, { Component } from 'react';
-import './about.css';
+// import './about.css';
 
 class About extends Component {
   render() {
     return (
+      <div>
+
+        <div id="one">
+          <div className="image main" data-position="center">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div className="container">
+            <header className="major">
+              <h2>Read Only</h2>
+              <p>Just an incredibly simple responsive site<br />
+                template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+            </header>
+            <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+          </div>
+        </div>
+
+
+
+
       <div className="about" id="about">
         <h2>What I Do</h2>
         <div className="work">
@@ -19,6 +38,26 @@ class About extends Component {
             NodeJS. I'm currently learning Python, AWS, and SQL.
           </p>
         </div>
+
+
+
+        <div id="two">
+          <div class="container">
+            <h3>Things I Can Do</h3>
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
+            <ul class="feature-icons">
+              <li class="fa-code">Write all the code</li>
+              <li class="fa-cubes">Stack small boxes</li>
+              <li class="fa-book">Read books and stuff</li>
+              <li class="fa-coffee">Drink much coffee</li>
+              <li class="fa-bolt">Lightning bolt</li>
+              <li class="fa-users">Shadow clone technique</li>
+            </ul>
+          </div>
+        </div>
+
+
+
         <div className="education" id="education">
           <h3>Education</h3>
           <div className="ed cs-ed">
@@ -52,6 +91,9 @@ class About extends Component {
             target="_blank" rel="noopener noreferrer"> here</a>
           </p>
         </div>
+      </div>
+
+
       </div>
     );
   }
