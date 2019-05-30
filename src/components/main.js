@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import avatar from '../images/myAvatar.png';
-import './main.css';
+// import './main.css';
 
 class Main extends Component {
   render() {

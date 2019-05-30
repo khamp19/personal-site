@@ -8,11 +8,12 @@ class Contact extends Component {
     return (
       <div>
 
+        {/*fix this to handle form submit */}
         <div id="four">
           <div class="container">
             <h3>Contact Me</h3>
-            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-            <form method="post" action="#">
+            <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non</p>
+            <form method="post" action="#"> 
               <div class="row gtr-uniform">
                 <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
                 <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -28,7 +29,7 @@ class Contact extends Component {
             </form>
           </div>
           
-          <div id="footer" style={{ display: 'flex'}}>
+          <div id="footer" style={{ display: 'flex', justifyContent: 'center'}}>
             <div className="container" style={{justifyContent: 'center'}}>
               <ul className="icons">
                 <li><a href="https://www.linkedin.com/in/kathryn-hampton/" target="_blank" rel="noopener noreferrer" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
