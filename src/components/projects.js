@@ -10,7 +10,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <section id="three">
+        <section id="three" style={{ borderBottom: "5px solid #F4F5FF", marginBottom: "30px" }}>
           <div class="container">
             <h3>A Few Accomplishments</h3>
             <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
@@ -38,7 +38,7 @@ class Projects extends Component {
               </article>
             </div>
           </div>
-        </section>
+        
       
       
         <div id="projects">
@@ -104,7 +104,7 @@ class Projects extends Component {
         </div>
 
 
-
+        </section>
       </div>
     );
   }

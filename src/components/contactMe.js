@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './contactMe.css';
+// import './contactMe.css';
 
 // make icons bigger
 
@@ -31,11 +31,6 @@ class Contact extends Component {
           
           <div id="footer" style={{ display: 'flex', justifyContent: 'center'}}>
             <div className="container" style={{justifyContent: 'center'}}>
-              <ul className="icons">
-                <li><a href="https://www.linkedin.com/in/kathryn-hampton/" target="_blank" rel="noopener noreferrer" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/khamp19" target="_blank" rel="noopener noreferrer" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="mailto:kathrynahampton@gmail.com" target="_top" class="icon fa-envelope"><span class="label">Email</span></a></li>
-              </ul>
               <ul className="copyright">
                 <li>&copy; Untitled. All rights reserved.</li>
                 <li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
