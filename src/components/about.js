@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import background from '../images/background.jpg';
+// import background from '../images/background.jpg';
+import background from '../images/w-plants-safar-safarov-1509070-unsplash.jpg';
 
 class About extends Component {
   render() {
@@ -30,8 +31,8 @@ class About extends Component {
 
         <section id="two" style={{ borderBottom: "5px solid #F4F5FF", marginBottom: "30px" }}>
           <div className="container">
-            <h3>Things I Can Do</h3>
-            <p>I have built several full-stack applications. Here are some of the tools that I use:</p>
+            <h3>What I Can Do</h3>
+            <p>I have built several full-stack applications using tools like:</p>
             <ul className="feature-icons">
               <li class="fa-code">React/ Redux</li>
               <li class="fa-code">HTML/ CSS</li>

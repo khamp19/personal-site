@@ -50,14 +50,14 @@ class SideBar extends Component {
       <div id="header">
         <header>
           <span className="image avatar">
-            <img src={avatar} alt="avatar" style={{ border: "1px solid blue" }}/>
+            <img src="https://github.com/khamp19.png" alt="avatar" />
           </span>
           <h1 id="logo">Kathryn Hampton</h1>
         </header>
         <nav id="nav">
           <ul>
             {tabs.map(tab => (
-              <li key={tab.id} onClick={() => this.toggleActive(tab)} onscroll={() => this.toggleActive(tab)}>
+              <li key={tab.id} onClick={() => this.toggleActive(tab)} onScroll={() => this.toggleActive(tab)}>
                 <a href={tab.href} className={current === tab.id ? "active" : null}>
                   {tab.name}
                 </a>
