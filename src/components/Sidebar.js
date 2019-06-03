@@ -2,14 +2,10 @@
 import React, { Component } from 'react';
 import avatar from '../images/myAvatar.png';
 
-//scroll fix: https://stackoverflow.com/questions/44612364/toggle-class-based-on-scroll-react-js
-  //https://gist.github.com/Tybi/0c8ffb3d54df8a1c8966
-
 class SideBar extends Component {
   constructor(props){
     super(props);
     this.state = {
-      active: false,
       currentTab: 1,
     }
   }
@@ -57,7 +53,9 @@ class SideBar extends Component {
         <nav id="nav">
           <ul>
             {tabs.map(tab => (
-              <li key={tab.id} onClick={() => this.toggleActive(tab)} onScroll={() => this.toggleActive(tab)}>
+              <li key={tab.id} 
+                onClick={() => this.toggleActive(tab)} 
+                onScroll={() => this.toggleActive(tab)}>
                 <a href={tab.href} className={current === tab.id ? "active" : null}>
                   {tab.name}
                 </a>

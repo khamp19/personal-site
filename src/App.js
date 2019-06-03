@@ -15,7 +15,7 @@ class App extends Component {
           <About />
           <Projects />
           <Contact />
-    </div>*/}
+        </div>*/}
         <SideBar />
         <div id="main">
           <About />
